@@ -10,7 +10,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: LemLib/pros-depot@dbaa18709f8239296212a47328a221290bd31fd8
+      - uses: LemLib/pros-depot@v0.1.0-beta.1
         with:
           token: ${{ github.token }}
           repo: alexDickhans/units
