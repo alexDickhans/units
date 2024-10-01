@@ -13,5 +13,5 @@ jobs:
       - uses: LemLib/pros-depot@dbaa18709f8239296212a47328a221290bd31fd8
         with:
           token: ${{ github.token }}
-          repo: alexDickhans/command-based-pros
+          repo: alexDickhans/units
           readable-json: true
